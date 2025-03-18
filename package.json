@@ -1,16 +1,25 @@
 {
   "name": "protege-minas-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "API para o Protege Minas, integração com ChatGPT",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProtegeMinas/protege-minas-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2"
-  }
+  "bugs": {
+    "url": "https://github.com/ProtegeMinas/protege-minas-api/issues"
+  },
+  "homepage": "https://github.com/ProtegeMinas/protege-minas-api#readme"
 }
