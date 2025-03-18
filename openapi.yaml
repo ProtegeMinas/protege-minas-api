@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   title: API Protege Minas
-  description: API pública do Protege Minas para integração com ChatGPT.
+  description: API pública do Protege Minas para integração com o ChatGPT.
   version: 1.0.0
 servers:
   - url: https://protege-minas-api.onrender.com
