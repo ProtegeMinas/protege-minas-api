@@ -1,0 +1,24 @@
+openapi: 3.1.0
+info:
+  title: API Protege Minas
+  description: API pública do Protege Minas para integração com ChatGPT.
+  version: 1.0.0
+servers:
+  - url: https://protege-minas-api.onrender.com
+    description: Servidor principal da API
+paths:
+  /:
+    get:
+      operationId: obterMensagem
+      summary: Obtém uma mensagem pública
+      responses:
+        '200':
+          description: Resposta bem-sucedida
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  mensagem:
+                    type: string
+                    example: "API do Protege Minas funcionando!"
