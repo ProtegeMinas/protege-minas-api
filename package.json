@@ -9,7 +9,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
-<<<<<<< HEAD
   },
   "devDependencies": {},
   "repository": {
@@ -23,7 +22,4 @@
     "url": "https://github.com/ProtegeMinas/protege-minas-api/issues"
   },
   "homepage": "https://github.com/ProtegeMinas/protege-minas-api#readme"
-=======
-  }
->>>>>>> be42a97eb0c8e6aaaa7ed6219e062266ccfd1278
 }
